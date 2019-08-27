@@ -1,0 +1,251 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    /*header start*/
+.nav_bar{
+    padding: 0;
+}
+.menu ul li a {
+    text-align: right;
+    padding-right: 0 !important;
+    font-size: 18px;
+}
+  /*header end*/
+  /*slider start*/
+.slider {
+    padding-bottom: 75px;
+}
+.car_in {
+    bottom: -58px;
+}
+.car_in li {
+    width: 11px;
+    height: 11px;
+}
+.slider_content {
+    margin-top: 20px;
+    text-align: center;
+}
+.heading {
+    font-size: 25px;
+} 
+.h3 {
+    font-size: 18px;
+}
+.heading_text {
+    font-size: 15px;
+} 
+  /*slider end*/
+/*features start*/
+.features {
+    margin: 25px 0;
+}
+.t_heading {
+    font-size: 26px;
+}
+.t_text {
+    font-size: 18px;
+    word-spacing: 0px;
+    letter-spacing: 0px;
+}
+.single_item {
+    margin-top: 0px;
+}
+.icon_text{
+    text-align: center;
+} 
+/*features end*/
+/*contact us start*/
+.contact{
+    padding-top: 25px;
+}
+.ctl {
+    text-align: center;
+}
+form {
+    margin: 20px 0;
+}
+.in_f {
+    padding: 16px 0;
+}
+.submit {
+    margin-top: 6px;
+}
+.btn_c {
+    padding: 6px 14px;
+}
+/*icon start*/
+.icon_list {
+    margin: 5px 0;
+}
+.icon_list li a {
+    font-size: 30px;
+}
+/*contact us end*/
+/*footer start*/
+footer{
+    padding: 25px 0 25px;
+}
+.ta_r {
+    text-align: center;
+}
+/*footer end*/
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /*header start*/
+.menu ul li a {
+    text-align: right;
+    padding-right: 0 !important;
+    font-size: 20px;
+}
+   /*header end*/
+   /*slider start*/
+.car_in {
+    bottom: -74px;
+}
+.car_in li {
+    width: 13px;
+    height: 13px;
+}
+.slider_content {
+    margin-top: 35px;
+    text-align: center;
+}
+.h3 {
+    font-size: 21px;
+}   
+   /*slider end*/
+/*features start*/
+.features {
+    margin: 50px 0;
+}
+.t_heading{
+    font-size: 28px;
+}
+.t_text {
+    font-size: 18px;
+    word-spacing: 0px;
+    letter-spacing: 0px;
+}
+.single_item {
+    margin-top: 20px;
+}
+.icon_text{
+    text-align: center;
+} 
+/*features end*/
+/*contact us start*/
+.contact{
+    padding-top: 50px;
+}
+form {
+    margin: 25px 0;
+}
+.form_text {
+    margin-left: 12px;
+}
+.in_f {
+    padding: 18px 0;
+}
+.btn_c {
+    padding: 7px 17px;
+}
+/*icon start*/
+.icon_list {
+    margin: 15px 0;
+}
+/*contact us end*/
+/*footer start*/
+footer{
+    padding: 40px 0 50px;
+}
+.f_last {
+    margin-top: 14px;
+}
+/*footer end*/
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*header start*/
+.menu ul li a {
+    text-align: right;
+    padding-right: 0 !important;
+}
+.heading {
+    font-size: 27px;
+}
+.h3 {
+    font-size: 18px;
+}
+.heading_text {
+    font-size: 15px;
+}
+/*header end*/
+/*features start*/
+.features {
+    margin: 60px 0;
+}
+.t_text {
+    word-spacing: 0px;
+    letter-spacing: 0px;
+}
+.single_item {
+    margin-top: 30px;
+}
+/*features end*/
+/*contact us start*/
+.contact{
+    padding-top: 60px;
+}
+form {
+    margin: 30px 0;
+}
+.in_f {
+    padding: 22px 0;
+}
+.btn_c {
+    padding: 11px 28px;
+}
+/*icon start*/
+.icon_list {
+    margin: 20px 0;
+}
+/*contact us end*/
+/*footer start*/
+footer{
+    padding: 50px 0 60px;
+}
+/*footer end*/
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/*features start*/
+.t_text {
+    word-spacing: 0px;
+    letter-spacing: 0px;
+} 
+/*features end*/
+/*contact us start*/
+.form_text {
+    margin-left: 15px;
+}
+/*contact us end*/
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+/*contact us start*/
+form {
+    margin: 40px 25px;
+}
+.form_text {
+    margin-left: 15px;
+}
+.btn_c {
+    margin-left: 15px;
+}
+/*contact us end*/
+}
